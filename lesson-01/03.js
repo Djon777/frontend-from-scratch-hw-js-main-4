@@ -8,7 +8,7 @@
 let sum = 0;
 let count = 0;
 let i = count;
-while (count = 20) {
+while (count <= 20) {
     count = count + 1;
     i = count % 2;
     if (i === 1) {
