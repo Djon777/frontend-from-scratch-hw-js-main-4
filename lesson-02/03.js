@@ -11,16 +11,15 @@ if ((score >= 0) && (score <= 49)) {
     grade = 'F';
 } else if ((score >= 50) && (score <= 69)) {
     grade = 'D';
-} else  ((score >= 70) && (score <= 79)) 
+} else if  ((score >= 70) && (score <= 79)) {
     grade = 'C';
-    ((score >= 80) && (score <= 89)) 
+} else if ((score >= 80) && (score <= 89)) { 
     grade = 'B';
-    (score >= 90) && (score <= 100)
+} else if ((score >= 90) && (score <= 100)) {
     grade = 'A';
-
-    grade = ( score <= 100);
-    console.log(score);
-    
+} else {
+    console.log('введи коректное значение');
+}
 
 
 // your code
