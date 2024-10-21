@@ -23,3 +23,4 @@ else {
 }
 
 // your code
+console.log(isAccess);
