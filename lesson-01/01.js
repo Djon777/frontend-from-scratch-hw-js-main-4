@@ -2,9 +2,9 @@
 // Результат присвойте переменной sum
 
 // your code
-// let sum = 0;
-// let i = 1;
-// while (i <= 20) {
-//     sum += i++;
-//     console.log(sum) 
-// }
+let sum = 0;
+let i = 1;
+    while (i <= 20) {
+    sum += i++;
+    console.log(sum) 
+}
