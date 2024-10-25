@@ -6,4 +6,3 @@
 */
 
 // your code
-let factorial
