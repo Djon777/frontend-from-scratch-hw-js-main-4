@@ -2,8 +2,11 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(a, b) {
-if (a) {
-    return 
+if (a < 10) {
+    a = 2;
+    return (a + a) / 2
 } else(b)
-    return 
+    b = 1;
+    return (b + b) / 2 
 }
+
