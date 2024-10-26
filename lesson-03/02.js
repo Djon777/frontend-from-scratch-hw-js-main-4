@@ -3,10 +3,10 @@
 
 function isEven(a, b) {
 if (a < 10) {
-    a = 2;
+    a === 2;
     return (a + a) / 2
 } else(b)
-    b = 1;
+    b === 1;
     return (b + b) / 2 
 }
 
