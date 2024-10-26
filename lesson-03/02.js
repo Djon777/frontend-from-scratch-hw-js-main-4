@@ -1,12 +1,11 @@
 // Разработайте функцию isEven, которая определяет, чётное ли число.
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
-function isEven(a, b) {
-if (a < 10) {
-    a === 2;
-    return (a + a) / 2
-} else(b)
-    b === 1;
-    return (b + b) / 2 
+function isEven(a) {
+if (a / 2 === 0) {
+    return true
+} else {
+    return false
+}
 }
 
