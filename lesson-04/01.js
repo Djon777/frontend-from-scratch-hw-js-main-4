@@ -12,5 +12,21 @@
 Пример использования:
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
+const i = [12, 23, 33];
+const a = i.includes(23)
+function includesElement(i) {
 
-function includesElement() {}
+for (let c = 0; c < i.includes; c++) {
+    if (i[c] === 23) {
+        a = false;
+        break;
+    } 
+}
+    if (a) {
+        console.log(a);
+        
+    } else console.log(a);
+    
+        
+    }
+
