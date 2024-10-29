@@ -18,10 +18,10 @@ function includesElement([a, b, c], b) {
 for (let caunt = 0; caunt < i.length; caunt++) {
     //const element = i[index];
     if (i.includes(b)) {
-        console.log(includes);
+        console.log(i.includes(b));
         
     } else {
-        console.log(includes);
+        console.log(i.includes(b));
         
 
     }
