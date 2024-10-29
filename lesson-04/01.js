@@ -12,15 +12,17 @@
 Пример использования:
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
-
+//let index = 0; index < i.length; index++
 function includesElement([a, b, c], b) {
     const i = [a, b, c]
-for (let index = 0; index < i.length; index++) {
+for (let caunt = 0; caunt < i.length; caunt++) {
     //const element = i[index];
     if (i.includes(b)) {
-        return b
+        console.log(includes);
+        
     } else {
-        return b
+        console.log(includes);
+        
 
     }
 }
