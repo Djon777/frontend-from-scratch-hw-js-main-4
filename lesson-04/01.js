@@ -18,10 +18,9 @@ function includesElement([a, b, c]) {
 for (let index = 0; index < i.length; index++) {
     //const element = i[index];
     if (i.includes(b)) {
-        console.log("b присутсвует в массиве");
+        return b
     } else {
-        console.log("b отсутвует в массиве");
-        
+        return b
 
     }
 }
