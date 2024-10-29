@@ -13,7 +13,7 @@
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 //let index = 0; index < i.length; index++
-function includesElement([a, b, c], b) {
+function includesElement([a, b, c]) {
     const i = [a, b, c]
 for (let caunt = 0; caunt < i.length; caunt++) {
     //const element = i[index];
