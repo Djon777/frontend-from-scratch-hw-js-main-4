@@ -19,10 +19,12 @@ function includesElement([a, b, c],) {
 for (let caunt = 0; caunt <= i.length; caunt++) {
     //const element = i[index];
     if  (caunt = (b)) {
-        return (i.includes (b));
+        //return (i.includes (b));
+        console.log(i.includes(b));
     }
     else {
-        return (i.includes (b));
+        console.log(i.includes(b));
+        //return (i.includes (b));
         
 
     }
