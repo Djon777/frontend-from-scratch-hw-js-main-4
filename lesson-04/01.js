@@ -16,16 +16,21 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 //caunt++
 function includesElement([a, b, c], b) {
     const i = [a, b, c]
-for (let caunt = 0; caunt < i.length; caunt++) {
+for (let caunt = 0; caunt <= i.length; caunt++) {
     //const element = i[index];
-    if (i = [b]) {
-        return i.includes [b]
+    if (i = (b)) {
+        return (i.includes (b));
         
     } else {
-        return i.includes [b]
+        return (i.includes (b));
         
 
     }
-}
-}
+    }
+    }
 //i.includes(b)
+//function includesElement([a, b, c], b) {
+//    const bool = [a, b, c]
+//    console.log(bool.includes(b));
+
+//}
