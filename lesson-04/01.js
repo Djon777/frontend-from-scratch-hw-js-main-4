@@ -18,16 +18,16 @@ function includesElement([a, b, c],) {
     const i = [a, b, c]
 for (let caunt = 0; caunt <= i.length; caunt++) {
     //const element = i[index];
-    if  (i = (b)) {
+    //if  (i = (b)) {
         return (i.includes (b));
-    }
-    else {
+    //}
+    //else {
         return (i.includes (b));
         
 
     }
     }
-    }
+    //}
 //i.includes(b)
 //function includesElement([a, b, c], b) {
 //    const bool = [a, b, c]
