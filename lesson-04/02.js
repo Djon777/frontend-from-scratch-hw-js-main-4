@@ -33,6 +33,6 @@ for (let i = 0; i < array.length; i++) {
     } else {
         nambers.push(array[i]);
     }
-    return nambers
 }
+return nambers
 }
