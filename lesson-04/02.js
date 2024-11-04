@@ -4,7 +4,16 @@
 **Входные данные:**
 
 - **`array`**: Массив, который может содержать повторяющиеся элементы.
-
+function findUniqueElements() {}
+const array = [1, 2, 3, 2, 1, 4];
+const nambers = [];
+for (let i = 0; i < array.length; i++) {
+    
+    if (!nambers.includes(array[i])) {
+        nambers.push(array[i]);
+        return nambers
+    }
+}
 **Выходные данные:**
 
 - Массив, содержащий только уникальные элементы из исходного массива.
@@ -16,3 +25,12 @@
 */
 
 function findUniqueElements() {}
+const array = [1, 2, 3, 2, 1, 4];
+const nambers = [];
+for (let i = 0; i < array.length; i++) {
+    
+    if (!nambers.includes(array[i])) {
+        nambers.push(array[i]);
+        return nambers
+    }
+}
