@@ -25,7 +25,6 @@ for (let i = 0; i < array.length; i++) {
 */
 
 function findUniqueElements(array) {
-const array = [1, 2, 3, 2, 1, 4];
 const nambers = [];
 for (let i = 0; i < array.length; i++) {
     
