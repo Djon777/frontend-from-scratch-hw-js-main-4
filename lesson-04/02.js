@@ -29,9 +29,10 @@ const array = [1, 2, 3, 2, 1, 4];
 const nambers = [];
 for (let i = 0; i < array.length; i++) {
     
-    if (!nambers.includes(array[i])) {
+    if (includesElement(nambers, array[i])) {
+        
+    } else {
         nambers.push(array[i]);
-    
     }
     return nambers
 }
