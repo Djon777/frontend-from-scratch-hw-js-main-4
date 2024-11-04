@@ -24,13 +24,14 @@ for (let i = 0; i < array.length; i++) {
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements() {}
+function findUniqueElements(array) {}
 const array = [1, 2, 3, 2, 1, 4];
 const nambers = [];
 for (let i = 0; i < array.length; i++) {
     
     if (!nambers.includes(array[i])) {
         nambers.push(array[i]);
-        return nambers
+    
     }
+    return nambers
 }
