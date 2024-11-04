@@ -13,10 +13,10 @@
 */
 const a = "str";
 function doubleEachCharacter(a) {
-    const b ="";
+    const b = "";
     
     for (let i = 0; i < a.length; i++) {
-        b = b + (a[i] + a[i]);
+        b += a[i] + a[i];
     }
     return b
 }
