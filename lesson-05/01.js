@@ -21,7 +21,7 @@ const game = {
     this.resources[resource] += amount;
 
 } else {
-  console.log("Invaled resource");
+  console.log('Invalid resource');
   
 }
 }
