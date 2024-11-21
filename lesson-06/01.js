@@ -18,23 +18,23 @@ const WEB_TECH_IMAGES = [
   'https://production-it-incubator.s3.eu-central-1.amazonaws.com/file-manager/Image/784380b9-6937-42a6-bdfe-869835820234_html-magic-logo.jpg',
 ]
 let caunt = 0;
-const batom1 = document.querySelector("#prev-button");
-const batom2 = document.querySelector("#next-button");
-batom1.addEventListener("click", function(){
+const batom1 = document.querySelector('#prev-button');
+const batom2 = document.querySelector('#next-button');
+batom1.addEventListener('click', function(){
   caunt --;
   if (caunt < 0) {
     caunt = 2;
   }
-    const imdD = document.querySelector("#web-tech-image")
-  imdD.setAttribute("src", WEB_TECH_IMAGES[caunt])
+    const imdD = document.querySelector('#web-tech-image')
+  imdD.setAttribute('src', WEB_TECH_IMAGES[caunt])
 })
-    batom2.addEventListener("click", function(){
+    batom2.addEventListener('click', function(){
       caunt ++;
   if (caunt > 2) {
-    caunt = 2;
+    caunt = 0;
   }
-  const imdD = document.querySelector("#web-tech-image")
-  imdD.setAttribute("src", WEB_TECH_IMAGES[caunt])
+  const imdD = document.querySelector('#web-tech-image')
+  imdD.setAttribute('src', WEB_TECH_IMAGES[caunt])
     })
 
 
