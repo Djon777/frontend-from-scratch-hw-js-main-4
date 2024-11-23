@@ -17,3 +17,6 @@ function truncate(str, maxLength) {
   return newStr + '...';
   
 }
+console.log(truncate("Я люблю учиться", 10));
+console.log(truncate("Короткая строка", 20));
+
