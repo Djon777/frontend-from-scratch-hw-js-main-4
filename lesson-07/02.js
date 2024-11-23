@@ -4,6 +4,10 @@
  */
 
 function isNumeric(str) {
+  if (str.trim() === '') {
+return false;
+  }
+  return !isNaN(str) && !isNaN(parseFloat(str));
   // your code
 }
 
