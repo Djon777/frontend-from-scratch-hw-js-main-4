@@ -15,7 +15,7 @@ function truncate(str, maxLength) {
   }
   return str;
 }
-console.log(truncate("Привет, как дела?", 10)); 
-console.log(truncate("Привет, мир!", 20)); 
+console.log(truncate("Привет, как дела?", 15)); 
+console.log(truncate("Привет!", 15)); 
 
 
