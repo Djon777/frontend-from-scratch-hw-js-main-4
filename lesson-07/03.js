@@ -11,10 +11,10 @@
 
 function truncate(str, maxLength) {
   if (str.Length > maxLength) {
-    return str.slice(0, maxLength - 3) + '...';
+    return str;
   }
   
-  return str;
+  return str.slice(0, maxLength ) + '...';
   
 }
 
