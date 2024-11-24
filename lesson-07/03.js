@@ -10,7 +10,7 @@
 */
 
 function truncate(str, maxLength) {
-  if (str.Length > maxLength) {
+  if (str.Length >= maxLength) {
     return str.slice(0, maxLength) + '...';
   }
   
