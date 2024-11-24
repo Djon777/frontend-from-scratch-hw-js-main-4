@@ -11,13 +11,14 @@
 
 function truncate(str, maxLength) {
   if (str.Length > maxLength) {
-    return str;
+    return str.slice(0, maxLength ) + '...';
   }
   
-  return str.slice(0, maxLength ) + '...';
+  return str;
   
 }
 
-
+console.log(truncate("Привет, как дела?", 10)); 
+console.log(truncate("Привет, мир!", 20)); 
 
 
