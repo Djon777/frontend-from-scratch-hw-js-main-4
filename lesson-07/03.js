@@ -10,13 +10,14 @@
 */
 
 function truncate(str, maxLength) {
-  if (str.maxLength <= maxLength) {
-    return str;
+  if (str.Length > maxLength) {
+    return str.slice(0, maxLength) + '...';
   }
-  const newStr = str.slice(0, maxLength - 3);
-  return newStr + '...';
+  
+  return str;
   
 }
-console.log(truncate("Я люблю учиться", 10));
-console.log(truncate("Короткая строка", 20));
+
+
+
 
