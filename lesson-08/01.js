@@ -68,3 +68,12 @@ clearCartButton.addEventListener('click', function () {
 })
 
 // Твой код:
+
+const peti = document.querySelectorAll('.pet-shop');
+const foo = () => {
+  peti.forEach(peti =>{
+    peti.addEventListener('click', (peti) => {
+      foo()
+    })
+  })
+}
