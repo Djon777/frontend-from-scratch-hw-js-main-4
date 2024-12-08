@@ -14,6 +14,7 @@
 */
 
 /* Пример использования:
+
 const numbers = [1, 2, 3, 4, 5]
 
 const oddNumbers = filter(numbers, (element, index) => {
@@ -23,4 +24,21 @@ const oddNumbers = filter(numbers, (element, index) => {
 console.log(oddNumbers) // Должен вывести: [1, 3, 5]
 */
 
-const filter = () => {}
+
+function filter(array, callback) {
+  const rezult = [];
+  for(let i = 0; i < array.length; i++) {
+    const element = array[i];
+    if (callback(element, index)) {
+      rezult.push(element)
+    }
+  }
+  return rezult;
+}
+
+
+    
+  
+  
+
+
